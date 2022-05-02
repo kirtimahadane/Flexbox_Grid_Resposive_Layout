@@ -142,7 +142,7 @@ justify-content: flex-end;
 
 
 @media screen and (max-width: 600px){
-  .two{
+  .one{
     margin-top: -16px;
   }
   .show-case{
@@ -199,7 +199,7 @@ justify-content: flex-end;
 
 /* showcase media query for tablet and all large devices*/
 @media screen and (min-width:602px){
-  .two{
+  .one{
     margin-top: -30px;
   }
   .show-case{
@@ -267,8 +267,8 @@ gap:1rem;
 
 /* section  main -content  media query for small phone devices*/
 @media screen and (max-width: 600px){
-  .three{
-    margin:60px auto;
+  .two{
+    margin:0 auto 60px;
     max-width: 100%;
    }
    .main-container{
@@ -297,7 +297,7 @@ gap:1rem;
 /* section main -content media query for tablet */
 @media screen and (min-width:602px){
 
-  .three{
+  .two{
     margin:60px auto;
     max-width: 100%;
    }
@@ -342,8 +342,8 @@ gap:1rem;
 /* section main content media query for all large devices*/
 
 @media screen and (min-width:1024px){
-  .three{
-    margin:100px auto;
+  .two{
+    margin: 100px  auto 0px;
     max-width: 100%;
    }
 }
